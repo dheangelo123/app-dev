@@ -1,7 +1,7 @@
 [SONG: Versace on the Floor]
 [ARTIST: Bruno Mars]
 
-// VERSE 1
+
 Let's take our time tonight, girl
 Above us all the stars are watchin'
 There's no place I'd rather be in this world
@@ -12,7 +12,7 @@ There's no reason to hide
 What we're feelin' inside
 Right now
 
-// PRE-CHORUS
+
 FUNCTION PRE_CHORUS() {
     So, baby, let's just turn down the lights and close the door
     Ooh, I love that dress, but you won't need it anymore
@@ -20,7 +20,7 @@ FUNCTION PRE_CHORUS() {
     RETURN "Let's just kiss 'til we're naked, baby";
 }
 
-// CHORUS
+
 CONST HOOK = "Versace on the floor";
 FUNCTION CHORUS() {
     PRINT HOOK;
@@ -29,7 +29,7 @@ FUNCTION CHORUS() {
     Ooh, take it off for me, for me, for me, for me now, girl
 }
 
-// VERSE 2
+
 I unzip the back to watch it fall
 While I kiss your neck and shoulders
 No, don't be afraid to show it all
@@ -41,7 +41,7 @@ IF (NOT my_smile) {
 }
 'Cause I ain't ever been more for real, for real
 
-// REPEAT PRE-CHORUS
+
 FUNCTION PRE_CHORUS() {
     So just turn down the lights
     And close the door
